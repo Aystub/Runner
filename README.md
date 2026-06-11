@@ -16,6 +16,7 @@ Easy to add support for new languages.
 
 ### Homebrew
 ```bash
+brew tap Aystub/tap
 brew install runner
 ```
 
