@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "runner-playground"
+version = "0.1.0"
+description = "A terminal-based TUI code playground for multiple languages."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "textual>=0.8.2",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+runner = "runner.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

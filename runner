@@ -1,0 +1,10 @@
+#!/bin/bash
+# Runner launcher script
+
+# Get the directory of this script
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# Run the app as a module, adding src/ to PYTHONPATH
+export PYTHONPATH="$DIR/src:$PYTHONPATH"
+exec "$DIR/.venv/bin/python3" -m runner.app "$@"
+
