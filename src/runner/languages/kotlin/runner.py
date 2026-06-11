@@ -10,7 +10,7 @@ class KotlinLanguage(BaseLanguage):
     template_file = "template.kt"
     executables = ["kotlinc", "java"]
     install_instructions = {
-        "macos": "brew install kotlin",
+        "macos": "brew install kotlin\n# If you see 'Unable to locate a java runtime', run:\n# sudo ln -sfn $(brew --prefix)/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk",
         "linux": "sudo apt-get install kotlin",
         "web": "https://kotlinlang.org/docs/command-line.html"
     }
