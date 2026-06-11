@@ -1,5 +1,7 @@
 # ⚡ Runner: Terminal-Based Code Playground
 
+![Demo Gif](.github/art/RunnerDemo.gif)
+
 A terminal-based TUI (Textual User Interface) playground for quickly running code snippets. It supports:
 - Python 
 - JavaScript (Node.js)
@@ -7,10 +9,6 @@ A terminal-based TUI (Textual User Interface) playground for quickly running cod
 - Kotlin
 
 Easy to add support for new languages.
-
-<p align="center">
-  <img src=".github/art/RunnderDemo.gif" width="100%" />
-</p>
 
 ---
 
