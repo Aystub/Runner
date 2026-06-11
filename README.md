@@ -35,8 +35,8 @@ runner
    - Go toolchain (for Go)
    - Kotlin compiler & Java Runtime (for Kotlin)
 
-#### Runtime Path Configuration (`.env`)
-By default, `runner` searches your system `PATH` to resolve compiler paths. If you have runtimes installed in custom paths (e.g., via `pyenv`, `nvm`, or Homebrew), copy `.env.example` to `.env` and fill in the absolute paths. You can use standard home directory shorthands (`~`) or environment variables in these paths:
+#### Runtime Path Configuration Overrides (`.env`)
+By default, `runner` searches your system `PATH` to resolve compiler paths. If you have runtimes installed in custom paths (e.g., via `pyenv`, `nvm`, or Homebrew), you can copy `.env.example` to `.env` and fill in the absolute paths. You can use standard home directory shorthands (`~`) or environment variables in these paths:
 ```env
 RUNNER_PYTHON3_PATH=~/.pyenv/shims/python3
 RUNNER_NODE_PATH=~/.nvm/versions/node/v18.0.0/bin/node
