@@ -8,9 +8,9 @@ A terminal-based TUI (Textual User Interface) playground for quickly running cod
 
 Easy to add support for new languages.
 
-<!-- <p align="center">
+<p align="center">
   <img src=".github/art/RunnderDemo.gif" width="100%" />
-</p> -->
+</p>
 
 ---
 
