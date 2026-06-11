@@ -23,3 +23,12 @@ runner = "runner.app:main"
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.setuptools.package-data]
+runner = [
+    "runner.tcss",
+    "languages/go/template.go",
+    "languages/javascript/template.js",
+    "languages/kotlin/template.kt"
+]
+
+
